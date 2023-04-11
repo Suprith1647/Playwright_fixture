@@ -2,7 +2,7 @@ import { expect,test } from "../base/fixture";
 import {Support} from "../utils/constant"
 let support: Support;
 
-test.beforeEach(async () => {
+test.beforeEach(async () => {   
 support = new Support();
 
 })
@@ -15,8 +15,7 @@ test("Registration test", async ({page, baseURL,registrationPage}) => {
 test("Login test", async({page,baseURL,loginPage}) =>{
     await page.goto(`${baseURL}route=account/login`);
     await loginPage.loginFillforms();
-    await expect(page).toHaveURL(support.loginConfim);
-    
+    await expect(page).toHaveURL(support.loginConfim);   
 })
 
 test.afterAll(async ({page}) => {

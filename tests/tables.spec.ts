@@ -12,10 +12,27 @@ test("simple web table", async({page})=>{
   const cols = rows.first().locator("td")
   console.log("Cols count: "+ await cols.count());  
 
-  const nameMatch = rows.filter({
-     has: page.locator("td"),
-     hasText: "Raj"
-  });
-   await nameMatch.locator("input").check();
+//   await checkInput(rows, page,"Raj");
+//   await checkInput(rows, page,"Chatterjee");
+for(let i=0; i< await rows.count(); i++){
+   const row = rows.nth(i);
+   const tds = row.locator("td");
+   for(let j=0;j<await tds.count();j++){
+      if(await tds.nth(j).textContent()== "Raj"){
+         console.log(await tds.nth(1).textContent());
+
+         await tds.last().locator("input").check();
+
+      }
+   }
+}
 
 })
+
+// async function checkInput(rows, page,name) {
+//    const nameMatch = rows.filter({
+//       has: page.locator("td"),
+//       hasText: "Raj"
+//    });
+//    await nameMatch.locator("input").check();
+
