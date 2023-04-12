@@ -58,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests\\tables.spec.ts",
-      "file": "tests/tables.spec.ts",
+      "title": "tests\\lambdAddcart.spec.ts",
+      "file": "tests/lambdAddcart.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "simple web table",
+          "title": "Registration test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,40 +78,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 6292,
+                  "duration": 19880,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "[ \u001b[32m'First nameLast nameEmail addressPresent/Absent'\u001b[39m ]\n"
-                    },
-                    {
-                      "text": "Rows count:3\n"
-                    },
-                    {
-                      "text": "Cols count: 4\n"
-                    },
-                    {
-                      "text": "Raj\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-11T10:03:34.963Z",
+                  "startTime": "2023-04-12T13:11:41.184Z",
                   "attachments": [
                     {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-tables-simple-web-table\\video.webm"
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-lambdAddcart-Registration-test\\test-finished-1.png"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-tables-simple-web-table\\trace.zip"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-tables-simple-web-table\\test-finished-1.png"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-lambdAddcart-Registration-test\\trace.zip"
                     }
                   ]
                 }
@@ -119,9 +101,52 @@
               "status": "expected"
             }
           ],
-          "id": "85f07700bf1e4231aa6a-8e57c29a64b8ac3efb68",
-          "file": "tests/tables.spec.ts",
-          "line": 3,
+          "id": "9753d3f2d8f3530ffa29-f0b42e04376adf9b60b8",
+          "file": "tests/lambdAddcart.spec.ts",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "Login test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 35954,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-12T13:12:02.222Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-lambdAddcart-Login-test\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-lambdAddcart-Login-test\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9753d3f2d8f3530ffa29-c0a7e7dd4da477c43fca",
+          "file": "tests/lambdAddcart.spec.ts",
+          "line": 30,
           "column": 5
         }
       ]

@@ -1,8 +1,14 @@
 {
    "Fname" : "Suprith",
    "Lname" : "Narayana",
-   "Email"  : "suprith113@gmail.com",
+   "Email"  : "suprith114@gmail.com",
    "Phone" : "9088667754",
    "Password" : "Suprith@123",
-   "Confirmpassword" :"Suprith@123"
+   "Confirmpassword" :"Suprith@123",
+   "Company" : "ATMECS",
+   "address_1" : "#2015 vijayanagara 2nd stage",
+   "address_2" : "Mysore, Karnataka",
+   "city":   "Mysore",
+   "postcode": "570009"
+
 }
