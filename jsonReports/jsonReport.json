@@ -58,14 +58,14 @@
   },
   "suites": [
     {
-      "title": "tests\\lambdAddcart.spec.ts",
-      "file": "tests/lambdAddcart.spec.ts",
+      "title": "visual-comparsion\\visual.spec.ts",
+      "file": "visual-comparsion/visual.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Registration test",
-          "ok": true,
+          "title": "Visual comparsion",
+          "ok": false,
           "tags": [],
           "tests": [
             {
@@ -77,37 +77,75 @@
               "results": [
                 {
                   "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 19880,
-                  "errors": [],
+                  "status": "failed",
+                  "duration": 15046,
+                  "error": {
+                    "message": "\u001b[31mScreenshot comparison failed:\u001b[39m\n\n  4325 pixels (ratio 0.01 of all image pixels) are different.\n\nExpected: \u001b[33mC:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-expected.png\u001b[39m\nReceived: \u001b[33mC:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-actual.png\u001b[39m\n    Diff: \u001b[33mC:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-diff.png\u001b[39m",
+                    "stack": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  4325 pixels (ratio 0.01 of all image pixels) are different.\n\nExpected: \u001b[33mC:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-expected.png\u001b[39m\nReceived: \u001b[33mC:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-actual.png\u001b[39m\n    Diff: \u001b[33mC:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-diff.png\u001b[39m\n    at C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\visual-comparsion\\visual.spec.ts:8:9"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\visual-comparsion\\visual.spec.ts",
+                        "column": 9,
+                        "line": 8
+                      },
+                      "message": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  4325 pixels (ratio 0.01 of all image pixels) are different.\n\nExpected: \u001b[33mC:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-expected.png\u001b[39m\nReceived: \u001b[33mC:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-actual.png\u001b[39m\n    Diff: \u001b[33mC:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-diff.png\u001b[39m\n\n\u001b[90m   at \u001b[39mvisual-comparsion\\visual.spec.ts:8\n\n\u001b[0m \u001b[90m  6 |\u001b[39m     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m         fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m     }))\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m\"letcode.png\"\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m })\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\visual-comparsion\\visual.spec.ts:8:9\u001b[22m"
+                    }
+                  ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-12T13:11:41.184Z",
+                  "startTime": "2023-04-13T12:36:15.662Z",
                   "attachments": [
                     {
-                      "name": "screenshot",
+                      "name": "letcode-expected.png",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-lambdAddcart-Registration-test\\test-finished-1.png"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-expected.png"
+                    },
+                    {
+                      "name": "letcode-actual.png",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-actual.png"
+                    },
+                    {
+                      "name": "letcode-diff.png",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\letcode-diff.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-lambdAddcart-Registration-test\\trace.zip"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\trace.zip"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-Visual-comparsion\\test-failed-1.png"
                     }
-                  ]
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\visual-comparsion\\visual.spec.ts",
+                    "column": 9,
+                    "line": 8
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
-          "id": "9753d3f2d8f3530ffa29-f0b42e04376adf9b60b8",
-          "file": "tests/lambdAddcart.spec.ts",
-          "line": 24,
+          "id": "5ed7fa3da477be2756e3-256db50224452fafdcd0",
+          "file": "visual-comparsion/visual.spec.ts",
+          "line": 3,
           "column": 5
         },
         {
-          "title": "Login test",
+          "title": "example test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -119,24 +157,29 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 1,
                   "status": "passed",
-                  "duration": 35954,
+                  "duration": 5774,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-12T13:12:02.222Z",
+                  "startTime": "2023-04-13T12:36:32.599Z",
                   "attachments": [
                     {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-lambdAddcart-Login-test\\test-finished-1.png"
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-example-test\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-lambdAddcart-Login-test\\trace.zip"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-example-test\\trace.zip"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\visual-comparsion-visual-example-test\\test-finished-1.png"
                     }
                   ]
                 }
@@ -144,9 +187,9 @@
               "status": "expected"
             }
           ],
-          "id": "9753d3f2d8f3530ffa29-c0a7e7dd4da477c43fca",
-          "file": "tests/lambdAddcart.spec.ts",
-          "line": 30,
+          "id": "5ed7fa3da477be2756e3-111cca4301afa8da2945",
+          "file": "visual-comparsion/visual.spec.ts",
+          "line": 12,
           "column": 5
         }
       ]

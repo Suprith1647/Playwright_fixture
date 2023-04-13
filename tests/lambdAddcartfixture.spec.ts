@@ -12,10 +12,15 @@ test("Registration test", async ({page, baseURL,registrationPage}) => {
     await expect(page).toHaveURL(support.registrationConfirm);
 });
 
-test("Login test", async({page,baseURL,loginPage}) =>{
+test("Login test", async({page,baseURL,loginPage,homePage}) =>{
     await page.goto(`${baseURL}route=account/login`);
     await loginPage.loginFillforms();
     await expect(page).toHaveURL(support.loginConfim);   
+    await homePage.clickHomeMenu();
+    await homePage.isTostVisible();
+    await homePage.addCart();
+    await homePage.checkOut();   
+    await homePage.fillBillingAddress(); 
 })
 
 test.afterAll(async ({page}) => {

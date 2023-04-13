@@ -1,7 +1,7 @@
 {
    "Fname" : "Suprith",
    "Lname" : "Narayana",
-   "Email"  : "suprith114@gmail.com",
+   "Email"  : "suprith116@gmail.com",
    "Phone" : "9088667754",
    "Password" : "Suprith@123",
    "Confirmpassword" :"Suprith@123",
@@ -9,6 +9,8 @@
    "address_1" : "#2015 vijayanagara 2nd stage",
    "address_2" : "Mysore, Karnataka",
    "city":   "Mysore",
-   "postcode": "570009"
+   "postcode": "570009",
+   "country" : "India",
+   "region"  : "Karnataka"
 
 }
