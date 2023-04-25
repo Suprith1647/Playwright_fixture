@@ -1,5 +1,5 @@
 import { expect, Locator, Page } from "@playwright/test";
-import constant from "../utils/lamdatest.json";
+import constant from "../support/lamdatest.json";
 
 
 export class HomePage {

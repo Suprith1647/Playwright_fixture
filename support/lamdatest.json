@@ -11,6 +11,11 @@
    "city":   "Mysore",
    "postcode": "570009",
    "country" : "India",
-   "region"  : "Karnataka"
+   "region"  : "Karnataka",
+   "CFname" :  "ABCDEFG",
+   "CLname" : "XYZ",
+   "successmessage" : " Success: Your account has been successfully updated.",
+   "successmessage2" : " Success: Your password has been successfully updated."
+
 
 }

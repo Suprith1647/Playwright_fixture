@@ -58,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests\\lambdaMyaccount.spec.ts",
-      "file": "tests/lambdaMyaccount.spec.ts",
+      "title": "tests\\changePassword.spec.ts",
+      "file": "tests/changePassword.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "My Account Page verification",
+          "title": "Edit Page verification",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,22 +78,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 46065,
+                  "duration": 18585,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-24T11:11:33.350Z",
+                  "startTime": "2023-04-25T13:14:45.582Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-lambdaMyaccount-My-Account-Page-verification\\video.webm"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-changePassword-Edit-Page-verification\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-lambdaMyaccount-My-Account-Page-verification\\trace.zip"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-changePassword-Edit-Page-verification\\trace.zip"
                     }
                   ]
                 }
@@ -101,9 +101,9 @@
               "status": "expected"
             }
           ],
-          "id": "273092f5369ab33ad560-0abf75e1d86e92a433a8",
-          "file": "tests/lambdaMyaccount.spec.ts",
-          "line": 9,
+          "id": "3e3ff85a2ee771355f8f-822691cd365ebcf9487f",
+          "file": "tests/changePassword.spec.ts",
+          "line": 11,
           "column": 5
         }
       ]

@@ -9,5 +9,9 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.32.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "bcryptjs": "^2.4.3"
   }
 }

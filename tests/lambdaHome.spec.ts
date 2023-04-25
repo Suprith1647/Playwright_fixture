@@ -1,5 +1,5 @@
 import { expect,test } from "../base/fixture";
-import {Support} from "../utils/constant"
+import {Support} from "../support/constant"
 let support: Support;
 
 test.beforeEach(async () => {   
