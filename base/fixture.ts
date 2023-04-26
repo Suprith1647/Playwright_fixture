@@ -5,6 +5,7 @@ import { HomePage } from "../pages/homePage";
 import { MyaccountPage } from "../pages/myaccountPage";
 import { EditPage } from "../pages/editPage";
 import { ChangePasswordPage } from "../pages/changepasswordPage";
+import { AddressPage } from "../pages/addressbookPage";
 
 type pages ={
     registrationPage : RegistrationPage
@@ -13,6 +14,7 @@ type pages ={
     myaccountpage : MyaccountPage
     editpage : EditPage
     changepasswordpage : ChangePasswordPage
+    addresspage : AddressPage
 }
 
 
@@ -35,8 +37,10 @@ const testPages =baseText.extend<pages>({
     },
     changepasswordpage: async({page},use) => {
         await use(new ChangePasswordPage(page));   
-    }
-
+    },
+    addresspage: async({page},use) => {
+        await use(new AddressPage(page));  
+    } 
 
 })
 

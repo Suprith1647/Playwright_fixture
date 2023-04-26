@@ -58,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests\\changePassword.spec.ts",
-      "file": "tests/changePassword.spec.ts",
+      "title": "tests\\myaccountAddressbook.spec.ts",
+      "file": "tests/myaccountAddressbook.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Edit Page verification",
+          "title": "Address Book New user",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,22 +78,27 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 18585,
+                  "duration": 25790,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T13:14:45.582Z",
+                  "startTime": "2023-04-26T12:42:05.101Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-changePassword-Edit-Page-verification\\video.webm"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Address-Book-New-user\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-changePassword-Edit-Page-verification\\trace.zip"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Address-Book-New-user\\trace.zip"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Address-Book-New-user\\test-finished-1.png"
                     }
                   ]
                 }
@@ -101,9 +106,148 @@
               "status": "expected"
             }
           ],
-          "id": "3e3ff85a2ee771355f8f-822691cd365ebcf9487f",
-          "file": "tests/changePassword.spec.ts",
-          "line": 11,
+          "id": "4fcb4f8d557fb0f2da5c-792b991140a4a29d4fae",
+          "file": "tests/myaccountAddressbook.spec.ts",
+          "line": 12,
+          "column": 5
+        },
+        {
+          "title": "Edit existing user info",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 21153,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-26T12:42:31.631Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Edit-existing-user-info\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Edit-existing-user-info\\trace.zip"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Edit-existing-user-info\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fcb4f8d557fb0f2da5c-b9b5d60e4d26807f487b",
+          "file": "tests/myaccountAddressbook.spec.ts",
+          "line": 20,
+          "column": 5
+        },
+        {
+          "title": "Verification of Delete funcationality  ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 10521,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-26T12:42:52.787Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Verification-of-Delete-funcationality-\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Verification-of-Delete-funcationality-\\trace.zip"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Verification-of-Delete-funcationality-\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fcb4f8d557fb0f2da5c-dfb49e1a646a1488c228",
+          "file": "tests/myaccountAddressbook.spec.ts",
+          "line": 29,
+          "column": 5
+        },
+        {
+          "title": "Verification of warning Message of Delete funcationality  ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 13025,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-26T12:43:03.311Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Verification-of-warning-Message-of-Delete-funcationality-\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Verification-of-warning-Message-of-Delete-funcationality-\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fcb4f8d557fb0f2da5c-27f52202de8f4f976aef",
+          "file": "tests/myaccountAddressbook.spec.ts",
+          "line": 37,
           "column": 5
         }
       ]

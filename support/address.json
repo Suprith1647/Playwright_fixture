@@ -1,0 +1,19 @@
+{
+    "Fname" : "Suprith",
+   "Lname" : "Narayana",
+   "Email"  : "suprith119@gmail.com",
+   "Phone" : "9088667754",
+   "Password" : "Suprith@123",
+   "Confirmpassword" :"Suprith@123",
+   "Company" : "ATMECS",
+   "address_1" : "#2015 vijayanagara 2nd stage",
+   "address_2" : "Mysore, Karnataka",
+   "city":   "Mysore",
+   "postcode": "570009",
+   "country" : "India",
+   "region"  : "Karnataka",
+   "successmessage" : " Your address has been successfully added",
+   "successmessage2" : " Your address has been successfully updated",
+   "delsuccessmessage" : " Your address has been successfully deleted",
+   "warningMsg"    :  " Warning: You can not delete your default address!"
+}

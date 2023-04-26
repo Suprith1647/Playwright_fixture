@@ -13,7 +13,6 @@ test("My Account Page verification", async ({ page, baseURL, loginPage, myaccoun
     await myaccountpage.myAccountpageVerification();
 
 });
-
 test.afterAll(async ({ page }) => { 
     await page.close();
 });

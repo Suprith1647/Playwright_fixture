@@ -26,8 +26,6 @@ export class ChangePasswordPage {
         await this.page.locator(this.changepasswordLocators.confirmPassword).type(constant.Confirmpassword);
         await this.page.locator(this.changepasswordLocators.continueBtn).click();
         expect(await this.page.locator(this.changepasswordLocators.successMsg).textContent()).toEqual(constant.successmessage2);
-
-
     }
 
 
