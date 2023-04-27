@@ -29,7 +29,10 @@ export class HomePage {
       country: "#input-payment-country",
       region: "#input-payment-zone",
       tearm_condition: `input[name='agree']`,
-      continue_Btn: "//button[text()='Continue ']"
+      continue_Btn: "//button[text()='Continue ']",
+      confirm_Btn : "//button[text()='Confirm Order ']",
+      confirmContinue_Btn : "//a[contains(text(),'Continue')]",
+
 
     }
 
@@ -70,7 +73,13 @@ export class HomePage {
     await this.page.locator(this.billingAddressLocators.region).selectOption(constant.region);
     await this.page.locator(this.billingAddressLocators.tearm_condition).click({ force: true });
     await this.page.locator(this.billingAddressLocators.continue_Btn).click();
-
+    await expect(this.page).toHaveURL(/.*confirm/);
+  
+  }
+  async clickOrderconfirm(){
+    await this.page.locator(this.billingAddressLocators.confirm_Btn).click();
+    await expect(this.page).toHaveURL(/.*success/);
+    await this.page.locator(this.billingAddressLocators.confirmContinue_Btn).click();
   }
 }
 

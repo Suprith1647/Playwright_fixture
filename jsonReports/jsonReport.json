@@ -58,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests\\myaccountAddressbook.spec.ts",
-      "file": "tests/myaccountAddressbook.spec.ts",
+      "title": "tests\\myOrders.spec.ts",
+      "file": "tests/myOrders.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Address Book New user",
+          "title": "Validate order history without ordering any product ",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,27 +78,27 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 25790,
+                  "duration": 13617,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-26T12:42:05.101Z",
+                  "startTime": "2023-04-27T11:36:15.422Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Address-Book-New-user\\video.webm"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myOrders-Validate-order-history-without-ordering-any-product-\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Address-Book-New-user\\trace.zip"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myOrders-Validate-order-history-without-ordering-any-product-\\trace.zip"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Address-Book-New-user\\test-finished-1.png"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myOrders-Validate-order-history-without-ordering-any-product-\\test-finished-1.png"
                     }
                   ]
                 }
@@ -106,13 +106,13 @@
               "status": "expected"
             }
           ],
-          "id": "4fcb4f8d557fb0f2da5c-792b991140a4a29d4fae",
-          "file": "tests/myaccountAddressbook.spec.ts",
+          "id": "651c777542933711ca30-2f3c834b81799d6b15a9",
+          "file": "tests/myOrders.spec.ts",
           "line": 12,
           "column": 5
         },
         {
-          "title": "Edit existing user info",
+          "title": "Validate reorder in order history by ordering any product ",
           "ok": true,
           "tags": [],
           "tests": [
@@ -126,27 +126,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 21153,
+                  "duration": 55345,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-26T12:42:31.631Z",
+                  "startTime": "2023-04-27T11:36:30.055Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Edit-existing-user-info\\video.webm"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myOrders-Validate-reorder-in-order-history-by-ordering-any-product-\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Edit-existing-user-info\\trace.zip"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Edit-existing-user-info\\test-finished-1.png"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myOrders-Validate-reorder-in-order-history-by-ordering-any-product-\\trace.zip"
                     }
                   ]
                 }
@@ -154,100 +149,9 @@
               "status": "expected"
             }
           ],
-          "id": "4fcb4f8d557fb0f2da5c-b9b5d60e4d26807f487b",
-          "file": "tests/myaccountAddressbook.spec.ts",
-          "line": 20,
-          "column": 5
-        },
-        {
-          "title": "Verification of Delete funcationality  ",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 10521,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-04-26T12:42:52.787Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Verification-of-Delete-funcationality-\\video.webm"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Verification-of-Delete-funcationality-\\trace.zip"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Verification-of-Delete-funcationality-\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "4fcb4f8d557fb0f2da5c-dfb49e1a646a1488c228",
-          "file": "tests/myaccountAddressbook.spec.ts",
-          "line": 29,
-          "column": 5
-        },
-        {
-          "title": "Verification of warning Message of Delete funcationality  ",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 13025,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-04-26T12:43:03.311Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Verification-of-warning-Message-of-Delete-funcationality-\\video.webm"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myaccountAddressbook-Verification-of-warning-Message-of-Delete-funcationality-\\trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "4fcb4f8d557fb0f2da5c-27f52202de8f4f976aef",
-          "file": "tests/myaccountAddressbook.spec.ts",
-          "line": 37,
+          "id": "651c777542933711ca30-67a3b644aa9b8f1198b2",
+          "file": "tests/myOrders.spec.ts",
+          "line": 17,
           "column": 5
         }
       ]
