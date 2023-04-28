@@ -1,7 +1,7 @@
 {
    "Fname" : "Suprith",
    "Lname" : "Narayana",
-   "Email"  : "suprith134@gmail.com",
+   "Email"  : "suprith136@gmail.com",
    "Phone" : "9088667754",
    "Password" : "Suprith@123",
    "Confirmpassword" :"Suprith@123",
@@ -15,7 +15,10 @@
    "CFname" :  "ABCDEFG",
    "CLname" : "XYZ",
    "successmessage" : " Success: Your account has been successfully updated.",
-   "successmessage2" : " Success: Your password has been successfully updated."
+   "successmessage2" : " Success: Your password has been successfully updated.",
+   "orderid"     : "#2143",
+   "orderdate"  : "2023-04-27",
+   "comments"   : "please take return"
 
 
 }

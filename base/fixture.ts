@@ -9,6 +9,8 @@ import { AddressPage } from "../pages/addressbookPage";
 import { WishListPage } from "../pages/wishlistPage";
 import { NewspaperPage } from "../pages/newsPage";
 import { MyOrderPage } from "../pages/myordersPage";
+import { DownloadPage } from "../pages/downloadsPages";
+import { RewardPage } from "../pages/rewardPages";
 
 type pages ={
     registrationPage : RegistrationPage
@@ -21,6 +23,8 @@ type pages ={
     wishlistpage : WishListPage
     newspaperpage : NewspaperPage
     myorderpage : MyOrderPage
+    downloadpage : DownloadPage
+    rewardpage : RewardPage
 }
 
 
@@ -55,6 +59,12 @@ const testPages =baseText.extend<pages>({
     },
     myorderpage: async({page},use) => {
         await use(new MyOrderPage(page)); 
+    },
+    downloadpage: async({page},use) => {
+        await use(new DownloadPage(page)); 
+    },
+    rewardpage: async({page},use) => {
+        await use(new RewardPage(page)); 
     }
 })
 

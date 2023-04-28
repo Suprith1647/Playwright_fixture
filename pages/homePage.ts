@@ -23,7 +23,7 @@ export class HomePage {
       lastname: "#input-payment-lastname",
       company: "#input-payment-company",
       address_1: "#input-payment-address-1",
-      address_2: "#input-payment-address-2",
+      address_2: "#input-payment-address-2",  
       city: "#input-payment-city",
       post_code: "#input-payment-postcode",
       country: "#input-payment-country",

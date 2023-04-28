@@ -58,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests\\myOrders.spec.ts",
-      "file": "tests/myOrders.spec.ts",
+      "title": "tests\\reward.spec.ts",
+      "file": "tests/reward.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Validate order history without ordering any product ",
+          "title": " Validate downloads under My orders",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,27 +78,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 13617,
+                  "duration": 20734,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-27T11:36:15.422Z",
+                  "startTime": "2023-04-28T11:33:57.133Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myOrders-Validate-order-history-without-ordering-any-product-\\video.webm"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-reward--Validate-downloads-under-My-orders\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myOrders-Validate-order-history-without-ordering-any-product-\\trace.zip"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myOrders-Validate-order-history-without-ordering-any-product-\\test-finished-1.png"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-reward--Validate-downloads-under-My-orders\\trace.zip"
                     }
                   ]
                 }
@@ -106,52 +101,9 @@
               "status": "expected"
             }
           ],
-          "id": "651c777542933711ca30-2f3c834b81799d6b15a9",
-          "file": "tests/myOrders.spec.ts",
+          "id": "07c92b732e385dbad2e9-236c7393ba57a4b07739",
+          "file": "tests/reward.spec.ts",
           "line": 12,
-          "column": 5
-        },
-        {
-          "title": "Validate reorder in order history by ordering any product ",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 55345,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-04-27T11:36:30.055Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myOrders-Validate-reorder-in-order-history-by-ordering-any-product-\\video.webm"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-myOrders-Validate-reorder-in-order-history-by-ordering-any-product-\\trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "651c777542933711ca30-67a3b644aa9b8f1198b2",
-          "file": "tests/myOrders.spec.ts",
-          "line": 17,
           "column": 5
         }
       ]

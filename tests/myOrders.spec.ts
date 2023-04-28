@@ -25,6 +25,18 @@ test("Validate reorder in order history by ordering any product ", async ({ page
     await homePage.clickOrderconfirm();
     await myorderpage.orderVerification();
 });
+test("Validate order history by  re-ordering any product ", async ({ page,loginPage,myorderpage}) => {
+    await loginPage.loginFillforms();
+    await expect(page).toHaveURL(support.loginConfim);
+    await myorderpage.reorderVerification();
+
+});
+test("Validate return in order history by ordering any product ", async ({ page,loginPage,myorderpage}) => {
+    await loginPage.loginFillforms();
+    await expect(page).toHaveURL(support.loginConfim);
+    await myorderpage.returnorderVerification();
+    
+});
 
 test.afterAll(async ({ page }) => { 
     await page.close();
