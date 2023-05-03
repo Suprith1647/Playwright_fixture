@@ -14,6 +14,8 @@ import { RewardPage } from "../pages/rewardPages";
 import { ReturnPage } from "../pages/returnPages";
 import { TranscationPage } from "../pages/transcationsPages";
 import { RecurringPage } from "../pages/recurringpaymentPage";
+import { AffiliatePage } from "../pages/affiliatePage";
+import { CategoryPage } from "../pages/categoryPage";
 
 type pages ={
     registrationPage : RegistrationPage
@@ -31,6 +33,8 @@ type pages ={
     returnpage : ReturnPage
     transcationpage : TranscationPage
     recurringpage  : RecurringPage
+    affiliatepage : AffiliatePage
+    categorypage : CategoryPage
 }
 
 
@@ -80,6 +84,12 @@ const testPages =baseText.extend<pages>({
     },
     recurringpage: async({page},use) => {
         await use(new RecurringPage(page)); 
+    },
+    affiliatepage: async({page},use) => {
+        await use(new AffiliatePage(page)); 
+    },
+    categorypage: async({page},use) => {
+        await use(new CategoryPage(page)); 
     },
     
 })
