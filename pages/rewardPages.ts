@@ -20,7 +20,6 @@ export class RewardPage {
 
     async clickReward(){
         await this.page.locator(this.rewardpageLocators.rewardPoint).click();
-        //await expect(this.page).toHaveURL(/.*reward/);
         expect(await this.page.locator(this.rewardpageLocators.rewardpageValidation).textContent()).toEqual('Your Reward Points');
         await this.page.locator(this.rewardpageLocators.continueBtn).click();
         await expect(this.page).toHaveURL(/.*account/);

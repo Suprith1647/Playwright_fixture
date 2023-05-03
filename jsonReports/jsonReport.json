@@ -58,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests\\reward.spec.ts",
-      "file": "tests/reward.spec.ts",
+      "title": "tests\\recurringPayment.spec.ts",
+      "file": "tests/recurringPayment.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": " Validate downloads under My orders",
+          "title": "Validate Recurring payments under My orders",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,22 +78,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 20734,
+                  "duration": 18706,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-28T11:33:57.133Z",
+                  "startTime": "2023-05-02T11:51:42.129Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-reward--Validate-downloads-under-My-orders\\video.webm"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-recurringPayment-Validate-Recurring-payments-under-My-orders\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-reward--Validate-downloads-under-My-orders\\trace.zip"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-recurringPayment-Validate-Recurring-payments-under-My-orders\\trace.zip"
                     }
                   ]
                 }
@@ -101,9 +101,9 @@
               "status": "expected"
             }
           ],
-          "id": "07c92b732e385dbad2e9-236c7393ba57a4b07739",
-          "file": "tests/reward.spec.ts",
-          "line": 12,
+          "id": "bba53a89f77401497460-aeb6760ae537bcb471b4",
+          "file": "tests/recurringPayment.spec.ts",
+          "line": 11,
           "column": 5
         }
       ]

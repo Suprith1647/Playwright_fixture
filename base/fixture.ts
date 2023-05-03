@@ -11,6 +11,9 @@ import { NewspaperPage } from "../pages/newsPage";
 import { MyOrderPage } from "../pages/myordersPage";
 import { DownloadPage } from "../pages/downloadsPages";
 import { RewardPage } from "../pages/rewardPages";
+import { ReturnPage } from "../pages/returnPages";
+import { TranscationPage } from "../pages/transcationsPages";
+import { RecurringPage } from "../pages/recurringpaymentPage";
 
 type pages ={
     registrationPage : RegistrationPage
@@ -25,6 +28,9 @@ type pages ={
     myorderpage : MyOrderPage
     downloadpage : DownloadPage
     rewardpage : RewardPage
+    returnpage : ReturnPage
+    transcationpage : TranscationPage
+    recurringpage  : RecurringPage
 }
 
 
@@ -65,7 +71,17 @@ const testPages =baseText.extend<pages>({
     },
     rewardpage: async({page},use) => {
         await use(new RewardPage(page)); 
-    }
+    },
+    returnpage: async({page},use) => {
+        await use(new ReturnPage(page)); 
+    },
+    transcationpage: async({page},use) => {
+        await use(new TranscationPage(page)); 
+    },
+    recurringpage: async({page},use) => {
+        await use(new RecurringPage(page)); 
+    },
+    
 })
 
 export  const test= testPages;
