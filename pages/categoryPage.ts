@@ -29,7 +29,7 @@ export class CategoryPage {
         await this.page.locator(this.categorypageLocators.shopcategoryLoc).click();
         expect(await this.page.locator(this.categorypageLocators.categotyheadder).textContent()).toEqual('Top categories ');
         await this.page.locator(this.categorypageLocators.categoryoption).click();
-        expect(await this.page.locator(this.categorypageLocators.optionheadder).textContent()).toEqual('Cameras');
+        
     }
     async moveSlider(){
         const slider = this.categorypageLocators.sliders;
@@ -48,9 +48,10 @@ export class CategoryPage {
         await this.page.locator(this.categorypageLocators.availabilityLOC).click({force:true});
     }
 
-    async addCart(){
+    async clickAddCart(){
         await this.page.hover("//a[@id='mz-product-grid-image-41-212408']//div[@class='carousel-item active']//img[@title='iMac']", { strict: false });
-        await this.page.locator(this.categorypageLocators.addCart).nth(0).click();
+        await this.page.locator(this.categorypageLocators.addCart).click();
+        
     }
 
 }

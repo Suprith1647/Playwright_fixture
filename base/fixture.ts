@@ -16,6 +16,8 @@ import { TranscationPage } from "../pages/transcationsPages";
 import { RecurringPage } from "../pages/recurringpaymentPage";
 import { AffiliatePage } from "../pages/affiliatePage";
 import { CategoryPage } from "../pages/categoryPage";
+import { ForgotPasswordPage } from "../pages/forgotpasswordPage";
+
 
 type pages ={
     registrationPage : RegistrationPage
@@ -35,6 +37,9 @@ type pages ={
     recurringpage  : RecurringPage
     affiliatepage : AffiliatePage
     categorypage : CategoryPage
+    forgotpasswordpage : ForgotPasswordPage
+  
+
 }
 
 
@@ -91,6 +96,10 @@ const testPages =baseText.extend<pages>({
     categorypage: async({page},use) => {
         await use(new CategoryPage(page)); 
     },
+    forgotpasswordpage: async({page},use) => {
+        await use(new ForgotPasswordPage(page)); 
+    },
+   
     
 })
 

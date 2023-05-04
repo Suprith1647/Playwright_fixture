@@ -58,14 +58,14 @@
   },
   "suites": [
     {
-      "title": "tests\\category.spec.ts",
-      "file": "tests/category.spec.ts",
+      "title": "tests\\forgotpassword.spec.ts",
+      "file": "tests/forgotpassword.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Validate shop by category by ordering the product",
-          "ok": false,
+          "title": "Verify that user is able to click on Forgot password ",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -77,55 +77,32 @@
               "results": [
                 {
                   "workerIndex": 0,
-                  "status": "failed",
-                  "duration": 37282,
-                  "error": {
-                    "message": "element.inputValue is not a function",
-                    "stack": "TypeError: element.inputValue is not a function\n    at CategoryPage.moveSlider (C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\pages\\categoryPage.ts:42:37)\n    at C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\tests\\category.spec.ts:16:5"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\pages\\categoryPage.ts",
-                        "column": 37,
-                        "line": 42
-                      },
-                      "message": "TypeError: element.inputValue is not a function\n\n\u001b[90m   at \u001b[39mpages\\categoryPage.ts:42\n\n\u001b[0m \u001b[90m 40 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mmouse\u001b[33m.\u001b[39mmove(\u001b[35m600\u001b[39m\u001b[33m,\u001b[39m \u001b[35m300\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mmouse\u001b[33m.\u001b[39mup()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m         \u001b[36mconst\u001b[39m value \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m element\u001b[33m.\u001b[39minputValue()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m         console\u001b[33m.\u001b[39mlog(value)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 44 |\u001b[39m         slider\u001b[33m.\u001b[39mhover()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m     }\u001b[0m\n\n\u001b[2m    at CategoryPage.moveSlider (C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\pages\\categoryPage.ts:42:37)\u001b[22m\n\u001b[2m    at C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\tests\\category.spec.ts:16:5\u001b[22m"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 7292,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-03T13:27:23.392Z",
+                  "startTime": "2023-05-04T13:05:06.569Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-category-Validate-shop-by-category-by-ordering-the-product\\video.webm"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-forgotpassword-Verify-that-user-is-able-to-click-on-Forgot-password-\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-category-Validate-shop-by-category-by-ordering-the-product\\trace.zip"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-category-Validate-shop-by-category-by-ordering-the-product\\test-failed-1.png"
+                      "path": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\test-results\\tests-forgotpassword-Verify-that-user-is-able-to-click-on-Forgot-password-\\trace.zip"
                     }
-                  ],
-                  "errorLocation": {
-                    "file": "C:\\Users\\suprith.narayana\\Desktop\\playwright_fixtures\\Playwright_fixture\\pages\\categoryPage.ts",
-                    "column": 37,
-                    "line": 42
-                  }
+                  ]
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "ade6f1a3c59950dadecb-da34281e00ee8abc7b00",
-          "file": "tests/category.spec.ts",
+          "id": "ca92b22853895879042c-30b3b9270395be9fbc69",
+          "file": "tests/forgotpassword.spec.ts",
           "line": 11,
           "column": 5
         }
